@@ -1,0 +1,31 @@
+.square[data-state='0']:hover{
+    background-color: rgb(59, 59, 59);
+    box-shadow: 1px 1px 10px 1px black;
+    
+}
+.square[data-state='1']:hover{
+    background-color: rgb(126, 20, 20);
+    box-shadow: 1px 1px 10px 1px black;
+}
+.square[data-state='2']:hover{
+    background-color: rgb(35, 21, 156);
+    box-shadow: 1px 1px 10px 1px black;
+}
+.square[data-state='2']:active{
+    background-color: rgb(59, 49, 155);
+    box-shadow: 1px 1px 10px 2px black;
+}
+.square[data-state='0']:active{
+    background-color: rgb(105, 105, 105);
+    box-shadow: 1px 1px 10px 2px black;
+    
+}
+.square[data-state='1']:active{
+    background-color: rgb(122, 36, 36);
+    box-shadow: 1px 1px 10px 2px black;
+}
+@keyframes win {
+    50%{
+        transform: rotateY(1turn);
+    }
+}
